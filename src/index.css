@@ -90,7 +90,7 @@ header {
 
 .paragraph {
   color: #ffffff;
-  font-family: 'Gotham book', Helvetica, Arial, sans-serif;
+  font-family: 'Gotham Light', Helvetica, Arial, sans-serif;
   font-size: 3vw;
 }
 
@@ -130,7 +130,6 @@ footer {
 .copyright {
   color: #ffffff;
   font-family: 'Gotham Light', Helvetica, Arial, sans-serif;
-  /* font-size: min(1rem, 3vw); */
   font-size: 3vw;
   letter-spacing: 2px;
   text-align: center;
