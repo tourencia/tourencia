@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  background-color: #17304f;
+}
+
+#app {
+  background: linear-gradient(180deg, rgba(23,48,79,1) 60%, rgba(186,24,24,.5) 100%);
+}
+
+header {
+  height: 64px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-color: #17304f;
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 4px -1px, rgb(0 0 0 / 14%) 0px 4px 5px 0px, rgb(0 0 0 / 12%) 0px 1px 10px 0px
+}
+
+.icon {
+  width: 48px;
+  margin: 0 10px;
+}
+
+.typography {
+  height: 16px;
+}
+
+.placeholder {
+  height: 64px;
+}
+
+.image-section {
+  height: calc(100vh - 64px);
+  max-height: 64vw;
+}
+
+.image-container {
+  display: grid;
+  position: relative;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -35%); 
+}
+
+.image-container > * {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.image {
+  width: 100%;
+  filter: brightness(60%);
+}
+
+.slogen {
+  color: #ffffff;
+  font-family: 'Gotham', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 6vw;
+  z-index: 5;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding-top: 25%;
+}
+
+.about {
+  margin-top: 8vw;
+}
+
+.section {
+  padding: 20px;
+}
+
+.section > article {
+  max-width: 80%;
+  margin: auto;
+}
+
+.title {
+  color: #ffffff;
+  font-family: 'Gotham', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 4vw;
+  margin: 5px 0px;
+}
+
+.paragraph {
+  color: #ffffff;
+  font-family: 'Gotham book', Helvetica, Arial, sans-serif;
+  font-size: 3vw;
+}
+
+.paragraph a {
+  color: #ffffff;
+}
+
+.social-icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-icon {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 5vw;
+  display: flex;
+  transition: all 150ms ease-in-out 0s;
+}
+
+footer {
+  margin-top: 20vw;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 5vw 10vw;
+}
+
+.logo {
+  width: min(160px, 25vw);
+  width: 25vw;
+}
+
+.copyright {
+  color: #ffffff;
+  font-family: 'Gotham Light', Helvetica, Arial, sans-serif;
+  /* font-size: min(1rem, 3vw); */
+  font-size: 3vw;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 2vw;
+  margin: 0;
+}

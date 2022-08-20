@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xml:space="preserve"
+   viewBox="0 0 4459.8398 2772.252"
+   height="2772.252"
+   width="4459.8398"
+   id="svg2"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs6"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath108"><path
+         d="M 0,2079.37 H 3344.88 V 0.180984 H 0 Z"
+         id="path106" /></clipPath><linearGradient
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="0"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-10.510437,-1936.3383,-1936.3383,10.510437,1675.6083,1623.2889)"
+       spreadMethod="pad"
+       id="linearGradient120"><stop
+         style="stop-opacity:1;stop-color:#1c1d21"
+         offset="0"
+         id="stop114" /><stop
+         style="stop-opacity:1;stop-color:#ba1818"
+         offset="0.795964"
+         id="stop116" /><stop
+         style="stop-opacity:1;stop-color:#ba1818"
+         offset="1"
+         id="stop118" /></linearGradient></defs><g
+     id="g10"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,2772.4934)"><g
+       clip-path="url(#clipPath108)"
+       opacity="0.5"
+       id="gradient"
+       style="display:inline"><path
+         d="M 3344.882,2079.375 H 0 V 0.181 h 3344.882 z"
+         style="display:inline;fill:url(#linearGradient120);fill-rule:evenodd;stroke:none"
+         id="path122" /></g></g></svg>
