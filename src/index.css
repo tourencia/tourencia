@@ -2,6 +2,7 @@ body {
   margin: 0;
   background-color: #17304f;
   overflow: auto;
+  overscroll-behavior: none;
 }
 
 #app {
