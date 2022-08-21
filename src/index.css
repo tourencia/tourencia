@@ -1,10 +1,14 @@
 body {
   margin: 0;
   background-color: #17304f;
+  overflow: auto;
 }
 
 #app {
   background: linear-gradient(180deg, rgba(23,48,79,1) 60%, rgba(186,24,24,.5) 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -109,28 +113,29 @@ header {
   text-decoration: none;
   font-size: 5vw;
   display: flex;
-  transition: all 150ms ease-in-out 0s;
 }
 
 footer {
-  margin-top: 20vw;
+  margin-top: auto;
+  padding-top: 20vw;
 }
 
 .footer-container {
   display: flex;
   justify-content: space-between;
-  margin: 5vw 10vw;
+  max-width: 80%;
+  padding: 20px;
+  margin: auto;
 }
 
 .logo {
-  width: min(160px, 25vw);
-  width: 25vw;
+  width: min(180px, 25vw);
 }
 
 .copyright {
   color: #ffffff;
   font-family: 'Gotham Light', Helvetica, Arial, sans-serif;
-  font-size: 3vw;
+  font-size: min(14px, 2vw);
   letter-spacing: 2px;
   text-align: center;
   padding: 2vw;
